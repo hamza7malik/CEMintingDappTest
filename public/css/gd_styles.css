@@ -1,0 +1,201 @@
+
+
+h1{
+  font-family: 'Pacifico', sans-serif;
+  font-weight: 500;
+  font-size: 5rem;
+  color: #056774;
+
+}
+h2{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+
+}
+p{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.name{
+  color: #056774;
+  font-weight: 900;
+}
+
+.align_centre{
+  text-align: center;
+}
+.align_left{
+  text-align: left;
+}
+.align_right{
+  text-align: right;
+}
+
+/* navigation */
+.navbar-brand{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 0;
+}
+.logo{
+  color: #056774;
+}
+
+/* -----------------sections_styles----------------- */
+#banner_section{
+background-color: #dde0e6;
+  /* background-color: #dde0e6; */
+}
+.section_heading{
+  padding: 5rem 0;
+}
+#skills_section{
+  background-color: #dde0e6;
+}
+#nav_section{
+  background-color: #dde0e6;
+}
+
+/* ------------what i do section--------------- */
+.desc_col_left{
+  text-align: left;
+
+
+}
+.desc_col_right{
+  text-align: right;
+
+
+}
+.description_one{
+  width: 50%;
+  padding-bottom: 5rem;
+  overflow: auto;
+  margin: auto 0 auto 0;
+}
+.description_two{
+  width: 50%;
+  float: right;
+  padding-bottom: 5rem;
+  overflow: auto;
+  margin: auto 0 auto 0;
+}
+.description_three{
+  width: 50%;
+  padding-bottom: 5rem;
+  overflow: auto;
+  margin: auto 0 auto 0;
+}
+.desc_p{
+
+  padding-top: 5rem;
+}
+
+/* -------------------------skill and toole section------------------ */
+.skill_item{
+  margin: 2rem;
+}
+.skills_box{
+  padding-bottom: 5rem;
+}
+
+/* -----------------icons----------------- */
+.icon_left{
+  color: #056774;
+  float:left;
+  padding: 2rem;
+}
+.icon_right{
+  color: #056774;
+  float:right;
+  padding: 2rem;
+}
+.tool_icons{
+  color: #056774;
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem;
+
+}
+
+
+/* ----------------footer---------------- */
+#footer_section
+{
+  padding-top: 5rem;
+  text-align: center;
+
+}
+.footer_p
+{
+  color: black;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+
+}
+.footer_p:hover{
+  color: #454545;
+}
+.Copyrights{
+  margin-top: 10rem;
+}
+
+
+/* ----------- */
+.switch_div{
+  margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.banner_left{
+  width: 25rem;
+  padding-bottom: 5rem;
+  margin-left: 5rem;
+  padding-top: 12rem;
+
+
+}
+.banner_left_col{
+  height: 550px;
+}
+
+.banner_image_basic{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  height: 90%;
+  width: 90%;
+  display: none;
+}
+
+.banner_image_gd{
+  margin-top: 2rem;
+  /* padding-top: 2rem; */
+  padding-bottom: 3rem;
+  text-align: center;
+  height: 90%;
+  width: 90%;
+
+}
+
+.banner_img_col{
+  text-align: center;
+  margin: 8rem 0 auto 0;
+  /* padding: 8rem 0; */
+}
+.buttons_div{
+  text-align: center;
+  margin: 5rem;
+
+}

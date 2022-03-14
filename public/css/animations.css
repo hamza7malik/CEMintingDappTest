@@ -1,0 +1,54 @@
+/* ------------animations------------ */
+.fade-in {
+animation: fadeIn ease 1s;
+-webkit-animation: fadeIn ease 1s;
+-moz-animation: fadeIn ease 1s;
+-o-animation: fadeIn ease 1s;
+-ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+/* --bounce-in-- */
+
+
+         @-webkit-keyframes bounceIn {
+            0% {
+               opacity: 0;
+               -webkit-transform: scale(.8);
+            }
+            50% {
+               opacity: 1;
+               -webkit-transform: scale(1.05);
+            }
+
+            100% {
+               -webkit-transform: scale(1);
+            }
+         }
+
+         @keyframes bounceIn {
+            0% {
+               opacity: 0;
+               transform: scale(.8);
+            }
+            50% {
+               opacity: 1;
+               transform: scale(1.05);
+            }
+
+            100% {
+               transform: scale(1);
+            }
+         }
+
+         .bounceIn {
+             -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-name: bounceIn;
+            animation-name: bounceIn;
+         }
