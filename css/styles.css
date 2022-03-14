@@ -1,0 +1,266 @@
+body{
+  padding: 0 !important;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  color: #152a46;
+
+}
+.head_1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
+  color: #152a46;
+  /* width: 600px; */
+  text-align: center;
+
+}
+.head_2{
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: 500 ;
+  font-size: 2rem ;
+  text-align: center;
+  
+
+}
+.para{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.para2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 30px;;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.name{
+  color: #6366F1;
+  font-weight: 900;
+  font-size: 3.5rem;
+  /* text-align: center; */
+}
+
+.align_centre{
+  text-align: center;
+}
+.align_left{
+  text-align: left;
+}
+.align_right{
+  text-align: right;
+}
+
+/* navigation */
+.navbar-brand{
+  font-family: 'Dosis', sans-serif !important;
+  font-weight: 800 !important; 
+  color: #fff !important;
+  font-size: 2rem !important;
+  text-align: center !important;
+  margin-left: 0 !important;
+}
+.logo_CEN{
+  color: #152a46;
+}
+.logo_CEN img{
+  color: #152a46;
+  max-width: 12rem;
+  
+}
+
+
+/* -----------------sections_styles----------------- */
+#banner_section{
+  background-color: #dde0e6;
+  
+  
+}
+.section_heading{
+  padding: 5rem 0;
+}
+#skills_section{
+  background-color: #dde0e6;
+}
+#nav_section{
+  /* background-color: #dde0e6; */
+  padding: 0rem 4rem ;
+}
+#roadMap{
+  background-color: #dde0e6;
+  padding-bottom: 100px;
+}
+
+/* ------------what i do section--------------- */
+.desc_col_left{
+  text-align: left;
+
+
+}
+.desc_col_right{
+  text-align: right;
+
+
+}
+.description_one{
+  width: 100%;
+  padding-bottom: 5rem;
+  /* overflow: auto; */
+  /* margin: auto 0 auto 0; */
+  margin: auto;    
+    display: block;
+    text-align: center;
+}
+.description_two{
+  width: 100%;
+  float: right;
+  padding-bottom: 5rem;
+  overflow: auto;
+  margin: auto 0 auto 0;
+}
+.description_three{
+  width: 100%;
+  padding-bottom: 5rem;
+  overflow: auto;
+  margin: auto 0 auto 0;
+}
+.desc_p{
+
+  padding-top: 5rem;
+}
+
+/* -------------------------skill and toole section------------------ */
+.skill_item{
+  margin: 2rem;
+}
+.skills_box{
+  padding-bottom: 5rem;
+}
+
+/* -----------------icons----------------- */
+
+.tool_icons{
+  color: #0bb3e4;
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem;
+
+}
+
+
+/* ----------------footer---------------- */
+#footer_section
+{
+  padding-top: 5rem;
+  text-align: center;
+  background-color: #dde0e6;
+
+}
+.footer_p
+{
+  color: black;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+
+}
+.footer_p:hover{
+  color: #454545;
+}
+.Copyrights{
+  margin-top: 5rem;
+}
+
+
+/* ----------- */
+.switch_div{
+  margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.banner_left{
+  /* width: 25rem; */
+  /* padding-bottom: 5rem; */
+  /* margin-left: 5rem; */
+  margin-top: 5rem;
+  /* margin: 0 auto; */
+ 
+}
+.banner_left_col{
+  /* height: 550px; */
+  text-align: center;
+  margin: auto 0;
+  
+}
+
+.banner_image_basic{
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  height: 90%;
+  width: 90%;
+}
+
+.banner_image_gd{
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  height: 90%;
+  width: 90%;
+  display: none;
+}
+.banner_img_col{
+  text-align: center;
+  margin: auto 0 auto 0;
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+.buttons_div{
+  text-align: center;
+  margin: 5rem;
+
+}
+.section_image{
+  height: 25rem;
+  width: 25rem;
+  margin: auto;    
+    display: block;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a .simple_action{
+  color: #6366f1;
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: 600 ;
+  font-size: 1rem ;
+  text-align: center;
+}
+.minting-dapp{
+  text-align: center;
+  
+}
+
+.banner_image_{
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("animated_banner.gif");
+  
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
