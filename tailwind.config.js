@@ -14,7 +14,7 @@ module.exports = {
             primarytxt: colors.white,
             warning: colors.yellow,
             warningtxt: colors.black,
-            error: colors.red,
+            error: colors.indigo,
             errortxt: colors.white,
         }
     },

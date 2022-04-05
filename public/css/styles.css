@@ -67,13 +67,14 @@ h4{
   font-size: 2rem !important;
   text-align: center !important;
   margin-left: 0 !important;
+  margin-right: 0rem !important;
 }
 .logo_CEN{
   color: #152a46;
 }
 .logo_CEN img{
   color: #152a46;
-  max-width: 12rem;
+  max-width: 10rem;
   
 }
 

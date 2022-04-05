@@ -64,7 +64,7 @@ export default class MintWidget extends React.Component<Props, State> {
         {this.canMint() ?
           <div className="mint-widget">
             <div className="preview">
-              <img src="/build/images/preview.png" alt="Collection preview" />
+              <img src="/build/images/preview.gif" alt="Crypto Elites NFT Collection - preview GIF" />
             </div>
 
             <div className="price">
@@ -80,10 +80,10 @@ export default class MintWidget extends React.Component<Props, State> {
           </div>
           :
           <div className="cannot-mint">
-            <span className="emoji">⏳</span>
+            {/* <span className="emoji">⏳</span> */}
             
-            {this.props.isWhitelistMintEnabled ? <>You are not included in the <strong>whitelist</strong>.</> : <>The contract is <strong>paused</strong>.</>}<br />
-            Please come back during the next sale!
+            {this.props.isWhitelistMintEnabled ? <>You are not included in the <strong>whitelist</strong>.</> : <>The sale is <strong>closed</strong> right now.</>}<br/>
+            Please join our Crypto Elites discord server for more information. <br/>
           </div>
         }
       </>
